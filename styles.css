@@ -1,0 +1,28 @@
+
+
+@media screen and (min-width: 600px) {
+    .flex-container{
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        }
+}
+
+body{
+ background-color: pink;
+}
+
+.flex-container{
+    display: flex;
+    background-color: blue;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.flex-item{
+    background-color: aqua;
+    padding: 50px;
+    margin: 5px;
+}
+
